@@ -1,0 +1,18 @@
+{
+  "targets": [
+    {
+      "name": "Example homepage",
+      "url": "https://example.com",
+      "timeout_seconds": 8,
+      "slow_threshold_ms": 1200,
+      "expected_statuses": [200]
+    },
+    {
+      "name": "Example API",
+      "url": "https://example.org/health",
+      "timeout_seconds": 5,
+      "slow_threshold_ms": 500,
+      "expected_statuses": [200, 204]
+    }
+  ]
+}
